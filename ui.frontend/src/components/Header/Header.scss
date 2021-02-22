@@ -1,0 +1,66 @@
+@import '../../styles/variables';
+
+.Header {
+  width: 100%;
+  z-index: 99;
+}
+
+.Header-container {
+  display: block;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding-left: $gutter-padding;
+  padding-right: $gutter-padding;
+}
+
+.Logo {
+  z-index: 100;
+  text-align: center;
+  padding-top: $gutter-padding;
+  padding-bottom: $gutter-padding;
+}
+
+.logo-img {
+  width: 240px;
+}
+
+.date-container {
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: UHCSans,Helvetica,Arial,sans-serif;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: -28px;
+  margin-left: 26px;
+  font-size: 36px;
+  line-height: 2.875rem;
+  font-weight: 500;
+  font-family: UHCSerifHeadline;
+}
+
+.Medium-size {
+  font-size: 1.375rem;
+}
+
+.Text {
+  text-align: center;
+  color: #002677;
+  font-family: UHCSerifHeadline;
+}
+
+.aem-GridColumn p {
+  text-align: center !important;
+  color: #002677 !important;
+  font-family: UHCSerifHeadline !important;
+  margin-top: 20px !important;
+  font-weight: 600 !important;
+  font-size: 30px !important;
+}
+
+body {
+  background-image: url('../../media/background.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

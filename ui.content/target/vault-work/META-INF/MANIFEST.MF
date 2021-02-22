@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: julmurillo
+Build-Jdk: 11.0.9
+Implementation-Title: UHC SPA React - UI content
+Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Vendor-Id: com.adobe.aem.guides
+Content-Package-Roots: /conf/wknd-spa-react,/content/dam/wknd-spa-react,
+ /content/experience-fragments/wknd-spa-react,/content/wknd-spa-react
+Content-Package-Description: UI content package for UHC SPA React
+Content-Package-Dependencies: com.adobe.aem.guides:wknd-spa-react.ui.app
+ s:1.0.0-SNAPSHOT
+Content-Package-Id: com.adobe.aem.guides:wknd-spa-react.ui.content:1.0.0
+ -SNAPSHOT
+Content-Package-Type: content
+
