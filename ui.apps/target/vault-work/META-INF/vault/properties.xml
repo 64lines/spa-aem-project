@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>UHC SPA React - UI apps</comment>
+<comment>WKND SPA React - UI apps</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
-<entry key="created">2021-02-22T15:48:58.681-05:00</entry>
+<entry key="created">2021-02-22T17:45:35.267-05:00</entry>
 <entry key="groupId">com.adobe.aem.guides</entry>
-<entry key="description">UI apps package for UHC SPA React</entry>
+<entry key="description">UI apps package for WKND SPA React</entry>
 <entry key="version">1.0.0-SNAPSHOT</entry>
 <entry key="packageType">application</entry>
 <entry key="requiresRoot">false</entry>
-<entry key="dependencies">adobe/cq60:core.wcm.components.content:2.9.0,adobe/cq60:core.wcm.components.config:2.9.0,com.adobe.aem:spa.project.core.ui.apps:1.0.6</entry>
+<entry key="dependencies">com.adobe.aem:spa.project.core.ui.apps:1.0.6</entry>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="createdBy">julmurillo</entry>
 <entry key="name">wknd-spa-react.ui.apps</entry>

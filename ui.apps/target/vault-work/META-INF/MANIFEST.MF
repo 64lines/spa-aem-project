@@ -2,14 +2,13 @@ Manifest-Version: 1.0
 Created-By: Apache Maven
 Built-By: julmurillo
 Build-Jdk: 11.0.9
-Implementation-Title: UHC SPA React - UI apps
+Implementation-Title: WKND SPA React - UI apps
 Implementation-Version: 1.0.0-SNAPSHOT
 Implementation-Vendor-Id: com.adobe.aem.guides
 Content-Package-Roots: /apps/wknd-spa-react
-Content-Package-Description: UI apps package for UHC SPA React
-Content-Package-Dependencies: adobe/cq60:core.wcm.components.content:2.9
- .0,adobe/cq60:core.wcm.components.config:2.9.0,com.adobe.aem:spa.projec
- t.core.ui.apps:1.0.6
+Content-Package-Description: UI apps package for WKND SPA React
+Content-Package-Dependencies: com.adobe.aem:spa.project.core.ui.apps:1.0
+ .6
 Content-Package-Id: com.adobe.aem.guides:wknd-spa-react.ui.apps:1.0.0-SN
  APSHOT
 Import-Package: com.adobe.aem.guides.wknd.spa.react.core.models;version=

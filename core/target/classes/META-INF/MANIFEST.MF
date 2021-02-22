@@ -19,10 +19,10 @@ Import-Package: javax.annotation;version="0.0.0",com.adobe.aem.guides.
  nd.spa.react.core.listeners;version="[1.0,2)",com.adobe.aem.guides.wk
  nd.spa.react.core.schedulers;version="[1.0,2)",com.adobe.aem.guides.w
  knd.spa.react.core.servlets;version="[1.0,2)",com.day.cq.wcm.api;vers
- ion="[1.27,2)",javax.servlet;version="[3.1,4)",org.apache.sling.api;v
+ ion="[1.29,2)",javax.servlet;version="[3.1,4)",org.apache.sling.api;v
  ersion="[2.3,3)",org.apache.sling.api.request;version="[2.4,3)",org.a
- pache.sling.api.resource;version="[2.11,3)",org.apache.sling.api.serv
- lets;version="[2.2,3)",org.apache.sling.models.annotations;version="[
+ pache.sling.api.resource;version="[2.12,3)",org.apache.sling.api.serv
+ lets;version="[2.3,3)",org.apache.sling.models.annotations;version="[
  1.5,2)",org.apache.sling.models.annotations.injectorspecific;version=
  "[1.1,2)",org.apache.sling.settings;version="[1.3,2)",org.osgi.servic
  e.event;version="[1.3,2)",org.slf4j;version="[1.7,2)"
