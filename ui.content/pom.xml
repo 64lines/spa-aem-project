@@ -22,7 +22,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>wknd-spa-react</artifactId>
+        <artifactId>uhc-spa-react</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,7 +30,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>wknd-spa-react.ui.content</artifactId>
+    <artifactId>uhc-spa-react.ui.content</artifactId>
     <packaging>content-package</packaging>
     <name>UHC SPA React - UI content</name>
     <description>UI content package for UHC SPA React</description>
@@ -49,7 +49,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <group>com.adobe.aem.guides</group>
-                    <name>wknd-spa-react.ui.content</name>
+                    <name>uhc-spa-react.ui.content</name>
                     <packageType>content</packageType>
                     <accessControlHandling>merge</accessControlHandling>
                     <properties>
@@ -58,7 +58,7 @@
                     <dependencies>
                         <dependency>
                             <groupId>com.adobe.aem.guides</groupId>
-                            <artifactId>wknd-spa-react.ui.apps</artifactId>
+                            <artifactId>uhc-spa-react.ui.apps</artifactId>
                             <version>${project.version}</version>
                         </dependency>
                     </dependencies>
@@ -82,12 +82,12 @@
     <dependencies>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>wknd-spa-react.core</artifactId>
+            <artifactId>uhc-spa-react.core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>wknd-spa-react.ui.apps</artifactId>
+            <artifactId>uhc-spa-react.ui.apps</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>

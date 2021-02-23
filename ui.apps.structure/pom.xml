@@ -7,7 +7,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>wknd-spa-react</artifactId>
+        <artifactId>uhc-spa-react</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -15,7 +15,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>wknd-spa-react.ui.apps.structure</artifactId>
+    <artifactId>uhc-spa-react.ui.apps.structure</artifactId>
     <packaging>content-package</packaging>
     <name>UHC SPA React - Repository Structure Package</name>
     <description>

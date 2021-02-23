@@ -23,7 +23,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>wknd-spa-react</artifactId>
+        <artifactId>uhc-spa-react</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -31,7 +31,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>wknd-spa-react.all</artifactId>
+    <artifactId>uhc-spa-react.all</artifactId>
     <packaging>content-package</packaging>
     <name>UHC SPA React - All</name>
     <description>All content package for UHC SPA React</description>
@@ -53,13 +53,13 @@
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
-                            <artifactId>wknd-spa-react.ui.apps</artifactId>
+                            <artifactId>uhc-spa-react.ui.apps</artifactId>
                             <type>zip</type>
                             <target>/apps/wknd-spa-react-packages/application/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
-                            <artifactId>wknd-spa-react.ui.content</artifactId>
+                            <artifactId>uhc-spa-react.ui.content</artifactId>
                             <type>zip</type>
                             <target>/apps/wknd-spa-react-packages/content/install</target>
                         </embedded>
@@ -169,13 +169,13 @@
                         <embeddeds>
                             <embedded>
                                 <groupId>com.adobe.aem.guides</groupId>
-                                <artifactId>wknd-spa-react.ui.apps</artifactId>
+                                <artifactId>uhc-spa-react.ui.apps</artifactId>
                                 <type>zip</type>
                                 <target>/apps/wknd-spa-react-packages/application/install</target>
                             </embedded>
                             <embedded>
                                 <groupId>com.adobe.aem.guides</groupId>
-                                <artifactId>wknd-spa-react.ui.content</artifactId>
+                                <artifactId>uhc-spa-react.ui.content</artifactId>
                                 <type>zip</type>
                                 <target>/apps/wknd-spa-react-packages/content/install</target>
                             </embedded>
@@ -210,13 +210,13 @@
     <dependencies>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>wknd-spa-react.ui.apps</artifactId>
+            <artifactId>uhc-spa-react.ui.apps</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>wknd-spa-react.ui.content</artifactId>
+            <artifactId>uhc-spa-react.ui.content</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>

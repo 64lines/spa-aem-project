@@ -27,7 +27,7 @@ const CLIENTLIB_DIR = path.join(
   'content',
   'jcr_root',
   'apps',
-  'wknd-spa-react',
+  'uhc-spa-react',
   'clientlibs'
 );
 const ASSET_MANIFEST_PATH = path.join(BUILD_DIR, 'asset-manifest.json');
@@ -41,7 +41,7 @@ module.exports = {
   libs: {
     name: 'clientlib-react',
     allowProxy: true,
-    categories: ['wknd-spa-react.react'],
+    categories: ['uhc-spa-react.react'],
     serializationFormat: 'xml',
     cssProcessor: ['default:none', 'min:none'],
     jsProcessor: ['default:none', 'min:none'],

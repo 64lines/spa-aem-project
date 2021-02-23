@@ -22,7 +22,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>wknd-spa-react</artifactId>
+        <artifactId>uhc-spa-react</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,9 +30,9 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>wknd-spa-react.ui.frontend</artifactId>
+    <artifactId>uhc-spa-react.ui.frontend</artifactId>
     <packaging>pom</packaging>
-    <name>wknd-spa-react.ui.frontend - UI Frontend</name>
+    <name>uhc-spa-react.ui.frontend - UI Frontend</name>
 
 
     <!-- ====================================================================== -->

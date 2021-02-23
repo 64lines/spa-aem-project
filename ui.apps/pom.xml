@@ -22,7 +22,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>wknd-spa-react</artifactId>
+        <artifactId>uhc-spa-react</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,9 +30,9 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>wknd-spa-react.ui.apps</artifactId>
+    <artifactId>uhc-spa-react.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>WKND SPA React - UI apps</name>
+    <name>UHC SPA React - UI apps</name>
     <description>UI apps package for WKND SPA React</description>
 
     <!-- ====================================================================== -->
@@ -50,7 +50,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <group>com.adobe.aem.guides</group>
-                    <name>wknd-spa-react.ui.apps</name>
+                    <name>uhc-spa-react.ui.apps</name>
                     <packageType>application</packageType>
                     <accessControlHandling>merge</accessControlHandling>
                     <properties>
@@ -59,13 +59,13 @@
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.adobe.aem.guides</groupId>
-                            <artifactId>wknd-spa-react.ui.apps.structure</artifactId>
+                            <artifactId>uhc-spa-react.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
-                            <artifactId>wknd-spa-react.core</artifactId>
+                            <artifactId>uhc-spa-react.core</artifactId>
                             <target>/apps/wknd-spa-react/install</target>
                         </embedded>
                         <embedded>
@@ -123,13 +123,13 @@
     <dependencies>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>wknd-spa-react.core</artifactId>
+            <artifactId>uhc-spa-react.core</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>wknd-spa-react.ui.frontend</artifactId>
+            <artifactId>uhc-spa-react.ui.frontend</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
@@ -146,7 +146,7 @@
         </dependency>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
-            <artifactId>wknd-spa-react.ui.apps.structure</artifactId>
+            <artifactId>uhc-spa-react.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
@@ -217,7 +217,7 @@
                     <extensions>true</extensions>
                         <configuration>
                             <group>com.adobe.aem.guides</group>
-                            <name>wknd-spa-react.ui.apps</name>
+                            <name>uhc-spa-react.ui.apps</name>
                             <packageType>application</packageType>
                             <accessControlHandling>merge</accessControlHandling>
                             <properties>
@@ -226,13 +226,13 @@
                             <repositoryStructurePackages>
                                 <repositoryStructurePackage>
                                     <groupId>com.adobe.aem.guides</groupId>
-                                    <artifactId>wknd-spa-react.ui.apps.structure</artifactId>
+                                    <artifactId>uhc-spa-react.ui.apps.structure</artifactId>
                                 </repositoryStructurePackage>
                             </repositoryStructurePackages>
                             <embeddeds>
                                 <embedded>
                                     <groupId>com.adobe.aem.guides</groupId>
-                                    <artifactId>wknd-spa-react.core</artifactId>
+                                    <artifactId>uhc-spa-react.core</artifactId>
                                     <target>/apps/wknd-spa-react/install</target>
                                 </embedded>
                                 <embedded>

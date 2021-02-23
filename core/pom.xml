@@ -19,11 +19,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>wknd-spa-react</artifactId>
+        <artifactId>uhc-spa-react</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>wknd-spa-react.core</artifactId>
+    <artifactId>uhc-spa-react.core</artifactId>
     <name>UHC SPA React - Core</name>
     <description>Core bundle for UHC SPA React</description>
     <build>
